@@ -16,5 +16,13 @@ namespace GRISHIN_PR08_GIT
         {
             InitializeComponent();
         }
+
+        private void Form3_Load(object sender, EventArgs e)
+        {
+            this.BackColor = ColorTranslator.FromHtml("#FFFFFF");
+            button1.BackColor = ColorTranslator.FromHtml("#7FFF00");
+            this.BackColor = ColorTranslator.FromHtml("#FFFFFF");
+
+        }
     }
 }
